@@ -16,7 +16,7 @@ specifiers:
   '@vitejs/plugin-react': ^4.0.3
   eslint: ^8.45.0
   eslint-plugin-react-hooks: ^4.6.0
-  eslint-plugin-react-refresh: ^0.4.3
+  eslint-plugin-react-refresh: ^0.5.0
   eslint-plugin-storybook: ^0.6.13
   react: ^16.14.0
   react-dom: ^16.14.0
@@ -44,7 +44,7 @@ devDependencies:
   '@vitejs/plugin-react': 4.0.4_vite@4.4.9
   eslint: 8.47.0
   eslint-plugin-react-hooks: 4.6.0_eslint@8.47.0
-  eslint-plugin-react-refresh: 0.4.3_eslint@8.47.0
+  eslint-plugin-react-refresh: 0.5.7_eslint@8.47.0
   eslint-plugin-storybook: 0.6.13_qj3u6ezxe2airdzjq3nyoxe24m
   storybook: 7.2.3
   typescript: 5.1.6
@@ -4783,10 +4783,10 @@ packages:
       eslint: 8.47.0
     dev: true
 
-  /eslint-plugin-react-refresh/0.4.3_eslint@8.47.0:
-    resolution: {integrity: sha512-Hh0wv8bUNY877+sI0BlCUlsS0TYYQqvzEwJsJJPM2WF4RnTStSnSR3zdJYa2nPOJgg3UghXi54lVyMSmpCalzA==}
+  /eslint-plugin-react-refresh/0.5.7_eslint@8.47.0:
+    resolution: {integrity: sha512-XhJSzLljuYD4UjNuFGJu2v7aD3sqNVK12w5/DCUfrNfHWegZo2+TsavNx8MuxMwEquuFAzNbNfXKU0WoZ+YUIg==}
     peerDependencies:
-      eslint: '>=7'
+      eslint: ^9 || ^10
     dependencies:
       eslint: 8.47.0
     dev: true
